@@ -8,17 +8,7 @@ Check out the live view: [http://codepen.io/dope/full/HbxmE](http://codepen.io/d
 
 ```
 <div class="frame">
-  <div class="bit-1">75%</div>
-  <div class="bit-2">25%</div>
+  <div class="bit-2">1/2</div>
+  <div class="bit-4">1/4</div>
 </div>
-```
-
-```
-.bit-1 {
-  width:75%;
-}
-
-.bit-2 {
-  width:25%;
-}
 ```
