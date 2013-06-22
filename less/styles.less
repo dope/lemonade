@@ -1,0 +1,64 @@
+body {
+  background:@blue;
+}
+
+// import main grid
+@import "lemonade.less";
+
+// main heading 
+h1 {
+  text-align:center;
+  font:4em "Helvetica Neue";
+  color:#fff;
+  font-weight:100;
+  padding:20px;
+  padding-bottom:0;
+  
+  @media (max-width: 480px) {
+    font-size:3em;
+  }
+}
+
+p {
+  text-align:center;
+  font:@baseFont;
+  color:rgba(0,0,0,0.3);
+  font-weight:500;
+  letter-spacing: 3px;
+  padding-bottom:20px;
+}
+
+footer > p {
+  padding:40px;
+  padding-bottom:100px;
+  letter-spacing:0;
+}
+
+
+//position frame
+.frame {
+  width:95%;
+  margin:0px auto;
+}
+
+// default style for this example 
+.box {
+  text-align:center;
+  font:@baseFont;
+  background:@yellow;
+  color:@blue;
+  padding:10px 0px 10px 0px;
+  .rounded;
+  cursor:pointer;
+}
+
+a, a:visited {
+  color:#fff;
+  text-decoration:none;
+  .trans;
+}
+
+a:hover {
+  .trans;
+  color:@yellow;
+}
