@@ -2,7 +2,7 @@ Lemonade
 ====
 Lemonade is a reallllllly simple and flexible grid system, all you need is the knowledge of css and basic math to use this.
 
-Check out the live view: [http://codepen.io/dope/full/HbxmE](http://codepen.io/dope/full/HbxmE)!
+Check out the live view: [http://codepen.io/dope/full/Cfgov](http://codepen.io/dope/full/Cfgov)!
 
 ## Getting started - Basic content and sidebar layout
 
