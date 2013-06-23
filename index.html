@@ -1,9 +1,12 @@
+
 <!--======================================================
 
-// this is a default example of Lemonade 
-// i'm using my html5 structure repo for the example
-// https://github.com/dope/html5-structures
-// thanks <3
+// This is just an example page for the Lemonade Grid
+// Please read the documentation for full instructions
+// http://goo.gl/n2iLg
+
+// Follow me on Twitter for full support: @joericho
+// Enjoy <3 
 
 ==========================================================-->
 
@@ -15,14 +18,15 @@
 
     <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link rel="icon" type="image/png" href="images/fav-desktop.png">
-	<link href="/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-	<link href="/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-	<link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
-	<link href="/apple-touch-icon.png" rel="apple-touch-icon">
     
+    <!-- This is the main grid stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/lemonade.css">
+
+    <!-- This is styles for the grid ie. h1, p, .content -->
  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+ 	    <!-- This is styles for tablet & mobile -->
+ 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<title>Lemonade Example</title>
 
 </head>
@@ -31,35 +35,54 @@
 	<h1>Lemonade</h1>
 	<p>A simple flexible grid system</p>
 
+	<!--======================================================
+
+	// Grid begins here, make sure you always wrap each .bit
+	// in a .frame class
+	// Use the .content class to style your content
+
+    ==========================================================-->
+
 	<div class="frame">
-
 		<div class="bit-1"><div class="box">1</div></div>
+    </div>
 
+    <div class="frame">
 		<div class="bit-2"><div class="box">1/2</div></div>
 		<div class="bit-2"><div class="box">1/2</div></div>
-
+	</div>
+    
+    <div class="frame">
         	<div class="bit-3"><div class="box">1/3</div></div>
 		<div class="bit-3"><div class="box">1/3</div></div>
 		<div class="bit-3"><div class="box">1/3</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-4"><div class="box">1/4</div></div>
 		<div class="bit-4"><div class="box">1/4</div></div>
 		<div class="bit-4"><div class="box">1/4</div></div>
 		<div class="bit-4"><div class="box">1/4</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-5"><div class="box">1/5</div></div>
 		<div class="bit-5"><div class="box">1/5</div></div>
 		<div class="bit-5"><div class="box">1/5</div></div>
 		<div class="bit-5"><div class="box">1/5</div></div>
 		<div class="bit-5"><div class="box">1/5</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-6"><div class="box">1/6</div></div>
 		<div class="bit-6"><div class="box">1/6</div></div>
 		<div class="bit-6"><div class="box">1/6</div></div>
 		<div class="bit-6"><div class="box">1/6</div></div>
 		<div class="bit-6"><div class="box">1/6</div></div>
 		<div class="bit-6"><div class="box">1/6</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-7"><div class="box">1/7</div></div>
 		<div class="bit-7"><div class="box">1/7</div></div>
 		<div class="bit-7"><div class="box">1/7</div></div>
@@ -67,7 +90,9 @@
 		<div class="bit-7"><div class="box">1/7</div></div>
 		<div class="bit-7"><div class="box">1/7</div></div>
 		<div class="bit-7"><div class="box">1/7</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-8"><div class="box">1/8</div></div>
 		<div class="bit-8"><div class="box">1/8</div></div>
 		<div class="bit-8"><div class="box">1/8</div></div>
@@ -76,7 +101,9 @@
 		<div class="bit-8"><div class="box">1/8</div></div>
 		<div class="bit-8"><div class="box">1/8</div></div>
 		<div class="bit-8"><div class="box">1/8</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-9"><div class="box">1/9</div></div>
 		<div class="bit-9"><div class="box">1/9</div></div>
 		<div class="bit-9"><div class="box">1/9</div></div>
@@ -86,7 +113,9 @@
 		<div class="bit-9"><div class="box">1/9</div></div>
 		<div class="bit-9"><div class="box">1/9</div></div>
 		<div class="bit-9"><div class="box">1/9</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-10"><div class="box">1/10</div></div>
 		<div class="bit-10"><div class="box">1/10</div></div>
 		<div class="bit-10"><div class="box">1/10</div></div>
@@ -97,7 +126,9 @@
 		<div class="bit-10"><div class="box">1/10</div></div>
 		<div class="bit-10"><div class="box">1/10</div></div>
 		<div class="bit-10"><div class="box">1/10</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-11"><div class="box">1/11</div></div>
 		<div class="bit-11"><div class="box">1/11</div></div>
 		<div class="bit-11"><div class="box">1/11</div></div>
@@ -109,7 +140,9 @@
 		<div class="bit-11"><div class="box">1/11</div></div>
 		<div class="bit-11"><div class="box">1/11</div></div>
 		<div class="bit-11"><div class="box">1/11</div></div>
+	</div>
 
+	<div class="frame">
 		<div class="bit-12"><div class="box">1/12</div></div>
 		<div class="bit-12"><div class="box">1/12</div></div>
 		<div class="bit-12"><div class="box">1/12</div></div>
@@ -122,11 +155,11 @@
 		<div class="bit-12"><div class="box">1/12</div></div>
 		<div class="bit-12"><div class="box">1/12</div></div>
 		<div class="bit-12"><div class="box">1/12</div></div>
+	</div>
 
-    </div>
 
     <footer>
-  		<p>Created by <a href="">@joericho</a></p>
+    	<a class="button" target="_blank" href="http://github.com/dope/lemonade/archive/master.zip">Download via Github</a>
 	</footer>
   
 </body>
