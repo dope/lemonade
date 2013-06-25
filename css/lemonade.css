@@ -12,7 +12,8 @@
   padding: 10px;
 }
 [class*='bit-']:last-of-type {
-  padding-right: 0;
+  padding-right: 10px;
+  float: right;
 }
 .frame:after {
   content: "";
@@ -53,5 +54,5 @@
   width: 9.09090909091%;
 }
 .bit-12 {
-  width: 8.27%;
+  width: 8.33%;
 }
