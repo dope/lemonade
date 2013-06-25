@@ -7,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 [class*='bit-'] {
   float: left;
@@ -99,10 +99,10 @@ footer > p {
   color: #40a9e0;
   padding: 10px 0px 10px 0px;
   -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
   cursor: pointer;
 }
 .button,
@@ -113,18 +113,22 @@ footer > p {
   background: #ff6060;
   font: 1em "Helvetica Neue" Arial;
   -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
   -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+     -moz-transition: all 0.1s ease-in-out;
+          transition: all 0.1s ease-in-out;
   border: 0;
   padding: 15px;
   margin-bottom: 100px;
   color: #fff;
   text-decoration: none;
+}
+.button:hover {
+  opacity: 0.9;
+  color: #fff;
 }
 .button:hover {
   opacity: 0.9;
