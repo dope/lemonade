@@ -36,4 +36,4 @@ So, in order to get the best results, you'll need to wrap each .bit- in a .frame
 ### Support
 If you have any questions or you're struggling with it, get in touch:
 - [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
-- [@joericho](http://twitter.com/joericho)
+- [@itsjoer](http://twitter.com/itsjoer)
