@@ -1,3 +1,5 @@
+/* Landscape and down
+-------------------------*/
 @media (max-width: 480px) {
   .bit-1 {
     width:100%;
@@ -46,6 +48,9 @@
     float: right;
   }
 }
+
+/* iPad to desktop
+-------------------------*/
 @media (min-width: 481px) and (max-width: 800px) {
   .bit-2 {
     width:100%;
