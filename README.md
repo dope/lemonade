@@ -14,7 +14,7 @@ Firstly, you'll want to link the stylesheets to your html file
 ```
 ###Let me run you through these sheets:
 - lemonade.css is the main grid
-- styles.css is your styles on top of your grid
+- styles.css is your styles on top of your grid (Optional)
 - responsive.css is for mobile & tablet
 
 ###Structure
