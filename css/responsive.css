@@ -47,32 +47,29 @@
   }
 }
 @media (min-width: 481px) and (max-width: 800px) {
-  .bit-3 {
-    width: 33.33%;
+  .bit-2 {
+    width:100%;
   }
   .bit-4 {
-    width: 100%;
-  }
-  .bit-8 {
-    width: 50%;
+    width:50%;
   }
   .bit-5 {
     width:100%;
   }
   .bit-6 {
-    width:100%;
+    width:50%;
   }
   .bit-7 {
     width:100%;
   }
   .bit-8 {
-    width: 100%;
+    width: 50%;
   }
   .bit-9 {
     width: 100%;
   }
   .bit-10 {
-    width: 100%;
+    width: 50%;
   }
   .bit-11 {
     width: 100%;
@@ -91,5 +88,9 @@
     margin-top:0;
     font-size:0.8em;
     padding-bottom:15px;
+  }
+
+  p > span {
+    display:none;
   }
 }
