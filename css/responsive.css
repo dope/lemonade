@@ -92,10 +92,14 @@
   p {
     margin-top:0;
     font-size:0.8em;
-    padding-bottom:15px;
+    padding-bottom:45px;
   }
 
   p > span {
+    display:none;
+  }
+
+  .fork {
     display:none;
   }
 }

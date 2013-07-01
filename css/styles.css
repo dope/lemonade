@@ -1,6 +1,19 @@
-body {
-  background: #2a3644;
+* {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
+body {
+  background: #fff;
+}
+
+header {
+  background:#40a9e0;
+  margin-bottom:50px;
+  border-bottom:1px solid rgba(0,0,0,.1);
+}
+
 h1 {
   text-align: center;
   font: 6em "Helvetica Neue" Arial;
@@ -9,35 +22,46 @@ h1 {
   padding: 40px;
   padding-bottom: 0;
 }
+
 p {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  color: #4d6887;
+  color: rgba(0,0,0,.3);
   font-weight: 500;
   font-size:1.26em;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-top:-5px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
+
+.fork {
+  padding-bottom:60px;
+}
+
 footer {
+  margin-top:0px;
   text-align: center;
+  padding:40px;
 }
+
 footer > p {
   padding: 0px;
-  padding-bottom: 100px;
+  text-transform:none;
   letter-spacing: 0;
 }
+
 .frame {
   width: 95%;
   margin: 0px auto;
 }
+
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  background: #f1fbfd;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
-  color: #2a3644;
+  background: #fff;
+  color: #ccc;
+  border:2px solid #ccc;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -46,9 +70,12 @@ footer > p {
           border-radius: 6px;
   cursor: pointer;
 }
+
 .box:hover {
-  background:#fff;
+  border:2px solid #ffd464;
+  color:#ffd464;
 }
+
 .button,
 .button:visited {
   display: block;
@@ -66,14 +93,15 @@ footer > p {
           transition: all 0.1s ease-in-out;
   border: 0;
   padding: 15px;
-  margin-bottom: 100px;
   color: #fff;
   text-decoration: none;
 }
+
 .button:hover {
   opacity: 0.9;
   color: #fff;
 }
+
 .button:hover {
   opacity: 0.9;
   color: #fff;
