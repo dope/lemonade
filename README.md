@@ -1,6 +1,6 @@
 Lemonade
 ====
-Lemonade is a realllly simple and flexible grid system, all you need is the knowledge of CSS/Less and basic math to use this.
+Lemonade is a realllly simple and flexible grid system, all you need is the knowledge of CSS and basic math to use this.
 
 Check out the live view: [here](http://joey.so/lemonade)
 
@@ -22,16 +22,15 @@ Once you have your stylesheets linked, you'll want to start structuring your
 .html file — lets go...
 
 ```
-<div class="frame">
-	<div class="bit-3">Content here</div>
-	<div class="bit-3">Content here</div>
-	<div class="bit-3">Content here</div>
+<div class="frame"><!--Wrap each .bit- section in .frame-->
+	<div class="bit-2">Content here</div><!--Use .box to style the content within .bit--->
+	<div class="bit-2">Content here</div>
 </div>
 ```
 ###It's that easy.
 So, in order to get the best results, you'll need to wrap each .bit- in a .frame class
 
-.bit-3 is set 33.33% and will scale to 100% on mobile and tablet (Perfect for galleries)
+.bit-2 is set 50% and will scale to 100% on mobile and tablet (Perfect for galleries)
 
 ### Support
 If you have any questions or you're struggling with it, get in touch:
