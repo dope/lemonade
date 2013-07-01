@@ -1,3 +1,5 @@
+/* Landscape and down
+===============================*/
 @media (max-width: 480px) {
   .bit-1 {
     width:100%;
@@ -46,6 +48,9 @@
     float: right;
   }
 }
+
+/* Tablet to Desktop
+===============================*/
 @media (min-width: 481px) and (max-width: 800px) {
   .bit-2 {
     width:100%;
@@ -76,21 +81,5 @@
   }
   .bit-12 {
     width: 50%;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 3em;
-  }
-
-  p {
-    margin-top:0;
-    font-size:0.8em;
-    padding-bottom:15px;
-  }
-
-  p > span {
-    display:none;
   }
 }

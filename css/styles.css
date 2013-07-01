@@ -1,43 +1,21 @@
+/* Main styles, optional use.
+============================*/
 body {
-  background: #2a3644;
+  background: #ffd464;
 }
-h1 {
-  text-align: center;
-  font: 6em "Helvetica Neue" Arial;
-  color: #fff;
-  font-weight: 100;
-  padding: 40px;
-  padding-bottom: 0;
-}
-p {
-  text-align: center;
-  font: 1em "Helvetica Neue" Arial;
-  color: #4d6887;
-  font-weight: 500;
-  font-size:1.26em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-top:-5px;
-  padding-bottom: 40px;
-}
-footer {
-  text-align: center;
-}
-footer > p {
-  padding: 0px;
-  padding-bottom: 100px;
-  letter-spacing: 0;
-}
+
 .frame {
   width: 95%;
   margin: 0px auto;
 }
+
+/* Style the content inside bit-
+===============================*/
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  background: #f1fbfd;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
-  color: #2a3644;
+  background: #fff;
+  color: #ccc;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
@@ -45,36 +23,4 @@ footer > p {
        -o-border-radius: 6px;
           border-radius: 6px;
   cursor: pointer;
-}
-.box:hover {
-  background:#fff;
-}
-.button,
-.button:visited {
-  display: block;
-  margin: 50px auto;
-  width: 200px;
-  background: #ff6060;
-  font: 1em "Helvetica Neue" Arial;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
-  border: 0;
-  padding: 15px;
-  margin-bottom: 100px;
-  color: #fff;
-  text-decoration: none;
-}
-.button:hover {
-  opacity: 0.9;
-  color: #fff;
-}
-.button:hover {
-  opacity: 0.9;
-  color: #fff;
 }
