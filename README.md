@@ -22,8 +22,8 @@ Once you have your stylesheets linked, you'll want to start structuring your
 .html file — lets go...
 
 ```
-<div class="frame"><!--Wrap each .bit- section in .frame-->
-	<div class="bit-2">Content here</div><!--Use .box to style the content within .bit--->
+<div class="frame">
+	<div class="bit-2">Content here</div>
 	<div class="bit-2">Content here</div>
 </div>
 ```
