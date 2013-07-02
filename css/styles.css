@@ -1,26 +1,38 @@
-/* Main styles, optional use.
-============================*/
+/*======================================
+  this is your main stylesheet for design
+  purposes only eg. typography, buttons,
+  layout colors etc.
+  
+  if you need to tweak the main grids
+  stylesheet then head over to 
+  lemonade.css
+======================================*/
 body {
   background: #ffd464;
 }
 
+
+/*======================================
+  set the width of your main layout.
+  if your layout overflows in mobile or 
+  tablet then set a new width in the 
+  responsive.css stylesheet
+======================================*/
 .frame {
   width: 95%;
   margin: 0px auto;
 }
 
-/* Style the content inside bit-
-===============================*/
+
+/*======================================
+  .box is used for styling the content 
+  within the .bit- sections eg
+  padding, colors, typography etc.
+======================================*/
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
   background: #fff;
   color: #ccc;
   padding: 15px 0px 15px 0px;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
-  cursor: pointer;
 }
