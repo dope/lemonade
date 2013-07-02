@@ -1,3 +1,14 @@
+/*======================================
+  this is your main grid stylesheet
+======================================*/
+
+
+/*======================================
+  I have used border-box on everything
+  as it doesn't interfere with the
+  widths of elements when different
+  types of paddings is set
+======================================*/
 *,
 *:after,
 *:before {
@@ -7,6 +18,13 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+/*======================================
+  using the main selector I have floated
+  all elements to the left and used
+  a pseudo to float the last element
+  to the right
+======================================*/
 [class*='bit-'] {
   float: left;
   padding: 10px;
@@ -15,11 +33,19 @@
   padding-right: 10px;
   float: right;
 }
+
+/*======================================
+  clearfix courtesy of @chriscoyier
+======================================*/
 .frame:after {
   content: "";
   display: table;
   clear: both;
 }
+
+/*======================================
+  main grid widts
+======================================*/
 .bit-1 {
   width: 100%;
 }
