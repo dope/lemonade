@@ -34,10 +34,5 @@ So, in order to get the best results, you'll need to wrap each .bit- in a .frame
 
 ### Support
 If you have any questions or you're struggling with it, get in touch:
-- [dope@lifes.gd](mailto:dope@lifes.gd)
-- [@joericho](http://twitter.com/joericho)
-
-### Make my day
-If you've actually used this for a website or just used it in general - let me know, I'll definitely appreciate the feedback.
-
-<3
+- [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
+- [@itsjoer](http://twitter.com/itsjoer)
