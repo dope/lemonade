@@ -5,11 +5,7 @@
 }
 
 body {
-   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ff6060));
-   background-image: -webkit-linear-gradient(top, #ffffff, #ff6060); 
-   background-image:    -moz-linear-gradient(top, #ffffff, #ff6060);
-   background-image:     -ms-linear-gradient(top, #ffffff, #ff6060);
-   background-image:      -o-linear-gradient(top, #ffffff, #ff6060);
+  background: #fff;
 }
 
 h1 {
