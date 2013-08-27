@@ -10,12 +10,10 @@ Firstly, you'll want to link the stylesheets to your html file
 ```
 <link rel="stylesheet" type="text/css" href="css/lemonade.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
 ```
 ###Let me run you through these sheets:
 - lemonade.css is the main grid
 - styles.css is your styles on top of your grid
-- responsive.css is for mobile & tablet
 
 ###Structure
 Once you have your stylesheets linked, you'll want to start structuring your
