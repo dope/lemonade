@@ -1,5 +1,4 @@
 /*
-*
 * Lemonade v1.1
 * Copyright 2013, Joey
 * lemonade.im
@@ -55,14 +54,14 @@
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
-  .bit-4, 
-  .bit-5, 
-  .bit-6, 
-  .bit-7, 
-  .bit-8, 
-  .bit-9, 
-  .bit-10, 
-  .bit-11, 
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
   .bit-12 {
     width: 100%;
   }
@@ -70,12 +69,12 @@
   .frame .bit-4:nth-child(2) {
     float: right;
   }
-  
+
   .frame .bit-4:nth-child(3) {
     clear: both;
     float: left;
   }
-  
+
   .frame .bit-4:nth-child(4) {
     float: right;
   }
@@ -84,20 +83,20 @@
 /* Mobile to Tablet Portrait
 ===============================*/
 @media (min-width: 481px) and (max-width: 800px) {
-  .bit-4, 
-  .bit-6, 
-  .bit-8, 
-  .bit-10, 
+  .bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
   .bit-12 {
     width: 50%;
   }
-  
-  .bit-1, 
-  .bit-2, 
+
+  .bit-1,
+  .bit-2,
   .bit-3,
-  .bit-5, 
-  .bit-7, 
-  .bit-9, 
+  .bit-5,
+  .bit-7,
+  .bit-9,
   .bit-11 {
     width: 100%;
   }
@@ -106,15 +105,15 @@
 /* Landscape Tablet to Desktop
 ===============================*/
 @media (min-width: 801px) and (max-width: 1100px) {
-  .bit-2, 
+  .bit-2,
   .bit-7 {
     width: 100%;
   }
-    
-  .bit-4, 
-  .bit-8, 
-  .bit-10, 
+
+  .bit-4,
+  .bit-8,
+  .bit-10,
   .bit-12 {
     width: 50%;
   }
-}   
+}
