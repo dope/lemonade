@@ -1,4 +1,4 @@
-###Show me your results homies
+###Lets make Lemonade
 Currently building the *real* documentation website for Lemonade, If you've got any finished results of using Lemonade or you've got any kind words to say - [get in touch](http://twitter.com/joericho)
 
 Lemonade
