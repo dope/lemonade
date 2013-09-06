@@ -1,0 +1,104 @@
+/*!
+ * 
+ * Lemonade v1.1
+ * Copyright 2013, Joey
+ * lemonade.im
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ */
+
+*,
+*:before,
+*:after 
+	/* Removes padding behavior on widths */
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+/* Targets all elements */
+[class*="bit-"]
+	float: left
+	padding: 10px
+	/* Floats last ".bit-" to the right */
+	&:last-of-type
+		padding-right: 10px
+		float: right
+
+/* Clearfix */
+.frame
+	&:before,
+	&:after
+		content: ""
+		display: table
+	&:after
+		clear: both
+
+/* Main Widths */
+$width: 100%
+
+@for $i from 1 through 12
+	.bit-#{$i}
+		width: $width / $i
+
+/**
+ * Mobile to Tablet Portrait
+ */
+@media (max-width: 480px)
+	.btn-1,
+	.btn-2,
+	.btn-3,
+	.btn-4,
+	.btn-5,
+	.btn-6,
+	.btn-7,
+	.btn-8,
+	.btn-9,
+	.btn-10,
+	.btn-11,
+	.btn-12
+		width: $width	
+
+	.frame
+		.bit-4
+			&:nth-child(2)
+				float: right
+			&:nth-child(3)
+				clear: both
+				float: left
+			&:nth-child(4)
+				float: right
+
+/**
+ * Mobile to Tablet Portrait
+ */
+@media (min-width: 480px) and (max-width: 800px)
+	.bit-4,
+	.bit-6,
+	.bit-8,
+	.bit-10,
+	.bit-12
+		width: $width / 2
+
+	.bit-1,
+	.bit-2,
+	.bit-3,
+	.bit-5,
+	.bit-7,
+	.bit-9,
+	.bit-11
+		width: $width
+
+/**
+ * Landscape Tablet to Desktop
+ */
+@media (min-width: 800px) and (max-width: 1100px)
+	.bit-2,
+	.bit-7
+		width: $width
+
+	.bit-4,
+	.bit-8,
+	.bit-10,
+	.bit-12
+		width: $width / 2
