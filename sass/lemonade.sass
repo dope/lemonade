@@ -8,6 +8,13 @@
  * 
  */
 
+$phone: "(max-width: 480px)"
+$tablet-portrait: "(min-width: 400px) and (max-width: 800px)"
+$tablet-landscape: "(min-width: 800px) and (max-width: 1100px)"
+=respond-to($media) 
+	@media #{$media}
+		@content
+
 *,
 *:before,
 *:after 
@@ -44,7 +51,7 @@ $width: 100%
 /**
  * Mobile to Tablet Portrait
  */
-@media (max-width: 480px)
++respond-to($phone)
 	.btn-1,
 	.btn-2,
 	.btn-3,
@@ -72,7 +79,7 @@ $width: 100%
 /**
  * Mobile to Tablet Portrait
  */
-@media (min-width: 480px) and (max-width: 800px)
++respond-to($tablet-portrait)
 	.bit-4,
 	.bit-6,
 	.bit-8,
@@ -92,7 +99,7 @@ $width: 100%
 /**
  * Landscape Tablet to Desktop
  */
-@media (min-width: 800px) and (max-width: 1100px)
++respond-to($tablet-landscape)
 	.bit-2,
 	.bit-7
 		width: $width
