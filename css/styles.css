@@ -1,124 +1,18 @@
-* {
-  -webkit-transition: all 0.3s ease-in-out;
-     -moz-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
-}
-
-body {
-  background: #fff;
-}
-
-h1 {
-  text-align: center;
-  font: 7em "Helvetica Neue" Arial;
-  color: #ffc500;
-  font-weight: 800;
-  padding: 40px;
-  padding-bottom: 0;
-}
-
-p {
-  text-align: center;
-  font: 1em "Helvetica Neue" Arial;
-  color: #ff6060;
-  font-weight: 800;
-  font-size:2em;
-  margin-top:-5px;
-  padding-bottom: 30px;
-}
-
-.fork {
-  padding-bottom:60px;
-}
-
-footer {
-  margin-top:50px;
-  text-align: center;
-  padding:40px;
-}
-
-footer > p {
-  padding-top:30px;
-  text-transform:none;
-  letter-spacing: 0;
-}
-
+/* Set the width of the grid */
 .frame {
-  width: 95%;
+  width: 100%;
   margin: 0px auto;
 }
 
+/* Mostly for the grid example, but can be styled */
 .box {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
   background:#ffc500;
   color:#fff;
   padding: 15px 0px 15px 0px;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
-  cursor: pointer;
 }
 
 .box:hover {
-  color:#ffa3a3;
-}
-
-.button,
-.button:visited {
-  margin: 50px auto;
-  width: 200px;
-  margin-right:5px;
-  background: #fff;
-  font: 1em "Helvetica Neue" Arial;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
-  border: 0;
-  padding: 15px;
-  color: #ff6060;
-  text-decoration: none;
-}
-
-.button:hover {
-  background:#ffc500;
-  color: #fff;
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 3em;
-  }
-
-  p {
-    margin-top:0;
-    font-size:0.8em;
-    padding-bottom:45px;
-  }
-
-  footer {
-    margin-top:0;
-  }
-
-  .button {
-    display:block;
-    width:100%;
-    margin-top:10px;
-    margin-bottom:0;
-  }
-
-  p > span {
-    display:none;
-  }
-
-  .fork {
-    display:none;
-  }
+  color:#fff;
 }

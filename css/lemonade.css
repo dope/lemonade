@@ -22,12 +22,12 @@
 /* Targets all elements */
 [class*='bit-'] {
   float: left;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* Floats last ".bit-" to the right */
 [class*='bit-']:last-of-type {
-  padding-right: 10px;
+  padding-right: 5px;
   float: right;
 }
 
@@ -52,8 +52,7 @@
 .bit-11 {width: 9.09090909091%;}
 .bit-12 {width: 8.33%;}
 
-/* Landscape mobile & down
-===============================*/
+/* Landscape mobile & down */
 @media (max-width: 480px) {
   .bit-1,
   .bit-2,
@@ -84,8 +83,7 @@
   }
 }
 
-/* Mobile to Tablet Portrait
-===============================*/
+/* Portrait tablet to landscape */
 @media (min-width: 480px) and (max-width: 800px) {
   .bit-4,
   .bit-6,
@@ -106,8 +104,7 @@
   }
 }
 
-/* Landscape Tablet to Desktop
-===============================*/
+/* Landscape to small desktop */
 @media (min-width: 800px) and (max-width: 1100px) {
   .bit-2,
   .bit-7 {
