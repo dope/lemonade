@@ -1,6 +1,9 @@
 ###Lets make Lemonade
 Currently building the *real* documentation website for Lemonade, If you've got any finished results of using Lemonade or you've got any kind words to say - [get in touch](http://twitter.com/joericho)
 
+###Tutorial on Tuts+
+Need to get going quickly? Check [this](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system)
+
 Lemonade
 ====
 Lemonade is a realllly simple and flexible grid system, all you need is the knowledge of CSS and basic math to use this.
