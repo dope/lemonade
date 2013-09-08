@@ -6,7 +6,7 @@ Lemonade is a a simple, flexible and easy-to-customise grid system. It was creat
 ## Installation
 
 -   Clone `git clone https://github.com/dope/lemonade.git`
--   [Download the latest version][https://github.com/dope/lemonade/archive/master.zip]
+-   [Download the latest version](https://github.com/dope/lemonade/archive/master.zip)
 
 
 ## Getting Started
@@ -49,9 +49,9 @@ Creating the css is also simple:
 If you have any questions or you're struggling with it, get in touch:
 
 -   [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
--   [@joericho][http://twitter.com/joericho]
+-   [@joericho](http://twitter.com/joericho)
 
 ### Tutorials
-[Build a Freshly Squeezed Responsive Grid System][http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system]
+[Build a Freshly Squeezed Responsive Grid System](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system)
 
-If you have written about Lemonade or want too - [let me know][http://twitter.com/joericho]
+If you have written about Lemonade or want too - [let me know](http://twitter.com/joericho)
