@@ -53,5 +53,7 @@ If you have any questions or you're struggling with it, get in touch:
 
 ### Tutorials
 [Build a Freshly Squeezed Responsive Grid System](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system)
-
 If you have written about Lemonade or want too - [let me know](http://twitter.com/joericho)
+
+###Lets make Lemonade
+Currently building the real documentation website for Lemonade, If you've got any finished results of using Lemonade or you've got any kind words to say - [get in touch](http://twitter.com/joericho)
