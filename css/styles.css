@@ -18,6 +18,7 @@
 .box {
   text-align: center;
   font: 1em "Helvetica Neue", Helvetica, Arial;
+  font-weight:800;
   background:#ffc500;
   color:#fff;
   padding: 15px 0px 15px 0px;
