@@ -1,42 +1,57 @@
-###Lets make Lemonade
-Currently building the *real* documentation website for Lemonade, If you've got any finished results of using Lemonade or you've got any kind words to say - [get in touch](http://twitter.com/joericho)
+# Lemonade
 
-###Tutorial on Tuts+
-Need to get going quickly? Check [this](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system)
+Lemonade is a a simple, flexible and easy-to-customise grid system. It was created in order to give designers & developers a kickstart with their projects. It currently supports Chrome, Firefox, Safari, Opera & IE 9+, also supports major phone devices too.
 
-Lemonade
-====
-Lemonade is a realllly simple and flexible grid system, all you need is the knowledge of CSS and basic math to use this.
 
-Check out the live view: [here](http://lemonade.im)
+## Installation
 
-###Lets get started
-Firstly, you'll want to link the stylesheets to your html file
+-   Clone `git clone https://github.com/dope/lemonade.git`
+-   [Download the latest version][https://github.com/dope/lemonade/archive/master.zip]
 
+
+## Getting Started
+Getting started couldn't be easier
+
+### First you need to link the stylesheets
 ```
 <link rel="stylesheet" type="text/css" href="css/lemonade.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 ```
-###Let me run you through these sheets:
-- lemonade.css is the main grid
-- styles.css is your styles on top of your grid
+lemonade.css is the main grid (which can be easily customised)
+styles.css is your base styles on top of your grid
 
-###Structure
-Once you have your stylesheets linked, you'll want to start structuring your
-.html file — lets go...
-
+### Structuring your layouts
 ```
 <div class="frame">
-	<div class="bit-2">Content here</div>
-	<div class="bit-2">Content here</div>
+        <div class="bit-3">Content here</div>
+        <div class="bit-3">Content here</div>
+	<div class="bit-3">Content here</div>
 </div>
 ```
-###It's that easy.
-So, in order to get the best results, you'll need to wrap each .bit- in a .frame class
+Always wrap your .bit- in a .frame class. 
+Anyway, creating a three-column layout (for galleries for example) is really simple, this will scale down to 100% on mobile.
 
-.bit-2 is set 50% and will scale to 100% on mobile and tablet (Perfect for galleries)
+### Customising your grid
+Maybe you want to go old school and create a two-column layout, It's so easy all you need is basic math (along as the .bit- classes equal to 100%, it will be perfect).
+```
+<div class="frame">
+	<div class="bit-75">Content here</div>
+	<div class="bit-25">Content here</div>
+</div>
+```
+Creating the css is also simple:
+```
+.bit-75 {width:75%;}
+.bit-75 {width:25%;}
+```
 
 ### Support
 If you have any questions or you're struggling with it, get in touch:
-- [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
-- [@joericho](http://twitter.com/joericho)
+
+-   [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
+-   [@joericho][http://twitter.com/joericho]
+
+### Tutorials
+[Build a Freshly Squeezed Responsive Grid System][http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system]
+
+If you have written about Lemonade or want too - [let me know][http://twitter.com/joericho]
