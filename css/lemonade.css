@@ -21,21 +21,10 @@
 
 /* Targets all elements */
 [class*='bit-'] {
-  float: left;
+  display:inline-block;
   padding: 5px;
-}
-
-/* Floats last ".bit-" to the right */
-[class*='bit-']:last-of-type {
-  padding-right: 5px;
-  float: right;
-}
-
-/* Clearfix */
-.frame:after {
-  content: "";
-  display: table;
-  clear: both;
+  margin-right: -.25em;
+  vertical-align: top;
 }
 
 /* Main Widths */
