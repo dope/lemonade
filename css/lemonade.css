@@ -19,12 +19,23 @@
           box-sizing: border-box;
 }
 
-/* Targets all elements */
+/* Attribute selector */
 [class*='bit-'] {
-  display:inline-block;
+  float: left;
   padding: 5px;
-  margin-right: -.25em;
-  vertical-align: top;
+}
+
+/* Floats last ".bit-" to the right */
+[class*='bit-']:last-of-type {
+  padding-right: 5px;
+  float: right;
+}
+
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Main Widths */
