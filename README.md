@@ -22,22 +22,17 @@ styles.css is your base styles on top of your grid
 
 ### Structuring your layouts
 ```
-<div class="frame">
-        <div class="bit-3">Content here</div>
-        <div class="bit-3">Content here</div>
-	<div class="bit-3">Content here</div>
-</div>
+<div class="bit-3">Content here</div>
+<div class="bit-3">Content here</div>
+<div class="bit-3">Content here</div>
 ```
-Always wrap your .bit- in a .frame class. 
-Anyway, creating a three-column layout (for galleries for example) is really simple, this will scale down to 100% on mobile.
+Creating a three-column layout (for galleries for example) is really simple, this will scale down to 100% on mobile.
 
 ### Customising your grid
 Maybe you want to go old school and create a two-column layout, It's so easy all you need is basic math (along as the .bit- classes equal to 100%, it will be perfect).
 ```
-<div class="frame">
-	<div class="bit-75">Content here</div>
-	<div class="bit-25">Content here</div>
-</div>
+<div class="bit-75">Content here</div>
+<div class="bit-25">Content here</div>
 ```
 Creating the css is also simple:
 ```
@@ -57,3 +52,8 @@ If you have written about Lemonade or want too - [let me know](http://twitter.co
 
 ###Lets make Lemonade
 Currently building the real documentation website for Lemonade, If you've got any finished results of using Lemonade or you've got any kind words to say - [get in touch](http://twitter.com/joericho)
+
+### Thank you!
+I've had some amazing feedback since creating Lemonade and I am glad it can help people.
+
+Also want to thank people who are testing and contributing to the product.
