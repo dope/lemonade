@@ -31,6 +31,12 @@
   float: right;
 }
 
+/* Alternative for IE8  */
+.last-type {
+  padding:10px;
+  float:right;
+}
+
 /* Clearfix */
 .frame:after {
   content: "";
