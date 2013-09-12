@@ -41,7 +41,7 @@ Maybe you want to go old school and create a two-column layout, It's so easy all
 Creating the css is also simple:
 ```
 .bit-75 {width:75%;}
-.bit-75 {width:25%;}
+.bit-25 {width:25%;}
 ```
 
 ### Support
