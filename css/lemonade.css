@@ -22,18 +22,18 @@
 /* Attribute selector */
 [class*='bit-'] {
   float: left;
-  padding: 5px;
+  padding: 0.3em;
 }
 
 /* Floats last ".bit-" to the right */
 [class*='bit-']:last-of-type {
-  padding-right: 5px;
+  padding-right: 0.3em;
   float: right;
 }
 
 /* Alternative for IE8  */
 .last-type {
-  padding:5px;
+  padding:0.3em;
   float:right;
 }
 
