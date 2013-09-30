@@ -58,6 +58,9 @@
 .bit-11 {width: 9.09090909091%;}
 .bit-12 {width: 8.33%;}
 
+/* Custom Widths */
+.bit-75 {width: 75%;}
+
 /* Landscape mobile & down */
 @media (max-width: 480px) {
   .bit-1,
