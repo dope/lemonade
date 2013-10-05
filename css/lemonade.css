@@ -27,13 +27,11 @@
 
 /* Floats last ".bit-" to the right */
 [class*='bit-']:last-of-type {
-  padding-right: 0.3em;
   float: right;
 }
 
 /* Alternative for IE8  */
 .last-type {
-  padding:0.3em;
   float:right;
 }
 
@@ -76,19 +74,6 @@
   .bit-11,
   .bit-12 {
     width: 100%;
-  }
-
-  .frame .bit-4:nth-child(2) {
-    float: right;
-  }
-
-  .frame .bit-4:nth-child(3) {
-    clear: both;
-    float: left;
-  }
-
-  .frame .bit-4:nth-child(4) {
-    float: right;
   }
 }
 
