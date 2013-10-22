@@ -1,6 +1,6 @@
 /*
 *
-* Lemonade v1.1
+* Lemonade v2
 * Copyright 2013, Joe Richardson
 * lemonade.im
 * Free to use under the MIT license.
@@ -13,7 +13,6 @@
 *:before {
   margin: 0;
   padding: 0;
-  /* Removes padding behavior on widths */
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -22,7 +21,7 @@
 /* Attribute selector */
 [class*='bit-'] {
   float: left;
-  padding: 0.3em;
+  padding: 10px;
 }
 
 /* Floats last ".bit-" to the right */
@@ -32,7 +31,13 @@
 
 /* Alternative for IE8  */
 .last-type {
+  padding-right:0.3em;
   float:right;
+}
+
+.float {
+  float:left;
+  padding:0.3em;
 }
 
 /* Clearfix */
