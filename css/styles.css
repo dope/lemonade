@@ -1,6 +1,6 @@
 /*
 *
-* Lemonade v2
+* Lemonade v1.1
 * Copyright 2013, Joe Richardson
 * lemonade.im
 * Free to use under the MIT license.
@@ -19,7 +19,11 @@
   text-align: center;
   font: 1em "Helvetica Neue", Helvetica, Arial;
   font-weight:800;
-  background:#ffc501;
+  background:#ffc500;
   color:#fff;
   padding: 15px 0px 15px 0px;
+}
+
+.box:hover {
+  color:#fff;
 }
