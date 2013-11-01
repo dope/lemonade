@@ -8,11 +8,51 @@
 *
 */
 
+html, body {
+  height: 100%;
+}
+
 /* For the grid example */
 .box {
   text-align: center;
   font: 15px "Helvetica Neue", Helvetica, Arial;
   background:#ffc500;
-  color:#fff;
-  padding: 15px 0px 15px 0px
+  color: #fff;
+  padding: 15px 0 15px 0
+}
+
+.media {
+  background-color: #3a3a3a;
+  color: #fff;
+  font-family: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #fff;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100px;
+  padding: 10px 15px;
+}
+
+.media strong:after {
+  content: "Large Desktop";
+}
+
+@media (max-width: 30em) {
+  .media strong:after {
+    content: "Mobile";
+  }
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  .media strong:after {
+    content: "Tablet";
+  }  
+}
+
+@media (min-width: 50em) and (max-width: 68.750em) {
+  .media strong:after {
+    content: "Small Desktop";
+  }  
 }
