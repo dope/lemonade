@@ -8,22 +8,11 @@
 *
 */
 
-/* Set the width of the grid */
-.frame {
-  width: 100%;
-  margin: 0px auto;
-}
-
 /* For the grid example */
 .box {
   text-align: center;
-  font: 1em "Helvetica Neue", Helvetica, Arial;
-  font-weight:800;
+  font: 15px "Helvetica Neue", Helvetica, Arial;
   background:#ffc500;
   color:#fff;
-  padding: 15px 0px 15px 0px;
-}
-
-.box:hover {
-  color:#fff;
+  padding: 15px 0px 15px 0px
 }
