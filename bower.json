@@ -6,6 +6,9 @@
     "ignore": [
         "README.md",
         "LICENSE.txt",
-        "bower.json"
+        "bower.json",
+        "index.html",
+        "css",
+        "styles.css"
     ]
 }
