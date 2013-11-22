@@ -5,6 +5,7 @@
     "author": "Joe Richardson",
     "ignore": [
         "README.md",
-        "LICENSE.txt"
+        "LICENSE.txt",
+        "bower.json"
     ]
 }
