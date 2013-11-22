@@ -5,7 +5,6 @@
     "author": "Joe Richardson",
     "ignore": [
         "README.md",
-        "LICENSE.txt",
         "bower.json",
         "index.html",
         "styles.css"
