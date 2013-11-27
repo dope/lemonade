@@ -11,7 +11,7 @@
 /* For the grid example */
 .box {
   text-align: center;
-  font: 15px "Helvetica Neue", Helvetica, Arial;
+  font: 15px "Helvetica Neue";
   background:#ffc500;
   color: #fff;
   padding: 15px 0 15px 0
