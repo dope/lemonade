@@ -27,7 +27,7 @@
 /* Attribute selector */
 [class*='bit-'] {
   float: left;
-  padding: 0.3em
+  padding: 0.3em;
 }
 
 /* Floats last ".bit-" to the right */
