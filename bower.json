@@ -6,7 +6,6 @@
     "ignore": [
         "README.md",
         "bower.json",
-        "index.html",
-        "styles.css"
+        "index.html"
     ]
 }
