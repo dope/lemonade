@@ -13,13 +13,10 @@ Lemonade is a a simple, flexible and easy-to-customise grid system. It was creat
 ## Getting Started
 Getting started couldn't be easier
 
-#### First you need to link the stylesheets
+#### First you need to link the stylesheet
 ```
 <link rel="stylesheet" type="text/css" href="css/lemonade.css">
-<link rel="stylesheet" type="text/css" href="css/styles.css">
 ```
-lemonade.css is the main grid (which can be easily customised)
-styles.css is your base styles on top of your grid
 
 #### Structuring your layouts
 ```
