@@ -1,13 +1,25 @@
+//
+//
+//
+//
+// Official LESS Port created by Joe Richardson (dope)
+// Feel free to contribute.
+//
+//
+//
+//
+
 *,
-*:after,
-*:before {
+*:before,
+*:after  {
   margin: 0;
   padding: 0;
   .box-sizing;
 }
 
+
  // Set the width of the grid
-.frame {
+ .frame {
   margin: 0 auto;
 
   // clearfix
@@ -19,16 +31,14 @@
 }
 
  // Attribute selector
-[class*='bit-'] {
+ [class*='bit-'] {
   float: left;
   padding: 0.3em;
-}
 
- // Floats last ".bit-" to the right
-[class*='bit-']:last-of-type {
-  float: right;
+  :last-of-type {
+    float: right;
+  }
 }
-
 
 .bit-1 {
   width: @full;
