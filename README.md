@@ -13,12 +13,12 @@ Lemonade is a a simple, flexible and easy-to-customise grid system. It was creat
 Getting started couldn't be easier
 
 #### First you need to link the stylesheet
-```
+```html
 <link rel="stylesheet" type="text/css" href="css/lemonade.css">
 ```
 
 #### Structuring your layouts
-```
+```html
 <div class="frame">
 	<div class="bit-3">Content here</div>
 	<div class="bit-3">Content here</div>
@@ -29,14 +29,14 @@ Creating a three-column layout (for galleries for example) is really simple, thi
 
 #### Customising your grid
 Maybe you want to go old school and create a two-column layout, It's so easy all you need is basic math (along as the .bit- classes equal to 100%, it will be perfect).
-```
+```html
 <div class="frame">
 	<div class="bit-75">Content here</div>
 	<div class="bit-25">Content here</div>
 </div>
 ```
 Creating the css is also simple:
-```
+```css
 .bit-75 {width:75%;}
 .bit-25 {width:25%;}
 ```
