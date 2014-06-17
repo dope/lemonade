@@ -1,0 +1,86 @@
+
+//
+// Official Scss Port created by Joe Richardson (dope)
+// Feel free to contribute.
+//
+
+
+*,
+*:before,
+*:after  {
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+
+ // Set the width of the grid
+ .frame {
+  margin: 0 auto;
+
+  // clearfix
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+ // Attribute selector
+ [class*='bit-'] {
+  float: left;
+  padding: $bit-padding;
+
+  &:last-of-type {
+    float: right;
+  }
+}
+
+// Create grid widths
+@for $i from $start through $end {
+  .bit-#{$i} {
+    width: $full / $i;
+  }
+}
+
+@media (max-width: $small) {
+  @for $i from $start through $end {
+    .bit-#{$i} {
+      width: $full
+    }
+  }
+}
+
+@media (min-width: $small) and (max-width: $medium) {
+  .bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: $half;
+  }
+
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: $full;
+  }
+}
+
+@media (min-width: $medium) and (max-width: $large) {
+  .bit-2,
+  .bit-7 {
+    width: $full;
+  }
+
+  .bit-4,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: $half;
+  }
+}
