@@ -2,6 +2,15 @@
 
 Lemonade is a a simple, flexible and easy-to-customise grid system. It was created in order to give designers & developers a kickstart with their projects. It currently supports Chrome, Firefox, Safari, Opera & IE 9+, also supports major phone devices too.
 
+### Installation
+clone: ```git clone http://github.com/dope/lemonade```
+bower: ```bower install lemonade```
+
+
+### Getting Started
+First link your stylesheet to your HTML file
+```<link rel="stylesheet" href="css/lemonade.min.css" />```
+
 
 ### License
 ```
