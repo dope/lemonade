@@ -10,6 +10,7 @@ bower: ```bower install lemonade```
 
 ### Getting Started
 First link your stylesheet to your HTML file
+
 ```<link rel="stylesheet" href="css/lemonade.min.css" />```
 
 
