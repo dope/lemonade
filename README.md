@@ -20,9 +20,9 @@ Getting started couldn't be easier
 #### Structuring your layouts
 ```html
 <div class="frame">
-	<div class="bit-3">Content here</div>
-	<div class="bit-3">Content here</div>
-	<div class="bit-3">Content here</div>
+    <div class="bit-3">Content here</div>
+    <div class="bit-3">Content here</div>
+    <div class="bit-3">Content here</div>
 </div>
 ```
 Creating a three-column layout (for galleries for example) is really simple, this will scale down to 100% on mobile. Wrap the .bit's in a .frame class to clear the floats.
@@ -31,8 +31,8 @@ Creating a three-column layout (for galleries for example) is really simple, thi
 Maybe you want to go old school and create a two-column layout, It's so easy all you need is basic math (along as the .bit- classes equal to 100%, it will be perfect).
 ```html
 <div class="frame">
-	<div class="bit-75">Content here</div>
-	<div class="bit-25">Content here</div>
+    <div class="bit-75">Content here</div>
+    <div class="bit-25">Content here</div>
 </div>
 ```
 Creating the css is also simple:
