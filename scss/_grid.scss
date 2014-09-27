@@ -1,21 +1,25 @@
-/*
-Lemonade - Official Scss Port
-Created by Joe Richardson (dope)
-*/
 
-*,
-*:before,
-*:after  {
-    margin: 0;
-    padding: 0;
-    @include box-sizing(border-box);
+// Mixins, not worth having its own file.
+// Border box
+// Should probably use auto-prefix on this.
+@mixin box-sizing($type) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+          box-sizing: $type;
 }
 
+// Start the grid.
+// Optional hard reset
+* {
+margin: 0;
+padding: 0;
+@include box-sizing(border-box);
+}
 
-// Set the width of the grid
+// clearfix
 .frame {
     margin: 0 auto;
-    // clearfix
+    max-width: $frame-width;
     &:after {
         content: "";
         display: table;
@@ -24,23 +28,34 @@ Created by Joe Richardson (dope)
 }
 
 // Attribute selector
+// Also I've removed :last-of-type
 [class*='bit-'] {
     float: left;
     padding: $bit-padding;
-
-    &:last-of-type {
-        float: right;
-    }
 }
 
-// Create grid widths
+// Create grid widths (1-12)
 @for $i from $start through $end {
     .bit-#{$i} {
         width: $full / $i;
     }
 }
 
-// Mobile 
+// Common widths
+// Please use the media queries below to respond these widths
+// Feel free to pull request new widths
+.bit-25 { width: $full - 75; }
+.bit-40 { width: $full - 60; }
+.bit-60 { width: $full - 40; }
+.bit-75 { width: $full - 25; }
+
+
+// Responsiveness
+// Feel free to use your own responsive widths and styles for the grid
+// These are mostly for example use only.
+// -------------------------------------------------------------------
+
+// Mobile
 @media (max-width: $small) {
     @for $i from $start through $end {
         .bit-#{$i} {

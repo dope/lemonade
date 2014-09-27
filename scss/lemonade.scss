@@ -1,8 +1,14 @@
-/*
-  Lemonade - Official Scss Port
-  Created by Joe Richardson (dope)
-*/
+// Lemonade V2
+// By Joe Richardson (@joericho)
+// Licensed under the MIT license, 2014
+// Documentation: http://lemonade.im
 
-@import "variables";
-@import "mixins";
-@import "grid";
+
+// Config (variables, widths etc.)
+@import 'config';
+
+// 12 column grid system
+@import 'grid';
+
+// Demo styles
+@import 'demo';
