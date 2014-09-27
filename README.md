@@ -61,7 +61,7 @@ Also want to thank people who are testing and contributing to the product.
 
 ### License
 ```
-Copyright (C) 2013 Joe Richardson
+Copyright (C) 2014 Joe Richardson
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
