@@ -46,6 +46,7 @@ If you have any questions or you're struggling with it, get in touch:
 
 -   [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
 -   [@joericho](http://twitter.com/joericho)
+-   [@lemonadegrid](http://twitter.com/lemonadegrid)
 
 ### Tutorials
 [Build a Freshly Squeezed Responsive Grid System](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/build-a-freshly-squeezed-responsive-grid-system)
