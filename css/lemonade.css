@@ -86,50 +86,17 @@
 }
 
 @media (max-width: 30em) {
-  .bit-1 {
-    width: 100%;
-  }
-
-  .bit-2 {
-    width: 100%;
-  }
-
-  .bit-3 {
-    width: 100%;
-  }
-
-  .bit-4 {
-    width: 100%;
-  }
-
-  .bit-5 {
-    width: 100%;
-  }
-
-  .bit-6 {
-    width: 100%;
-  }
-
-  .bit-7 {
-    width: 100%;
-  }
-
-  .bit-8 {
-    width: 100%;
-  }
-
-  .bit-9 {
-    width: 100%;
-  }
-
-  .bit-10 {
-    width: 100%;
-  }
-
-  .bit-11 {
-    width: 100%;
-  }
-
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
   .bit-12 {
     width: 100%;
   }
