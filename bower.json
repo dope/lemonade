@@ -1,7 +1,7 @@
 {
     "name": "lemonade",
     "version": "2",
-    "main": "scss/lemonade.scss",
+    "main": "css/lemonade.css",
     "author": "Joe Richardson",
     "ignore": [
         "README.md",
