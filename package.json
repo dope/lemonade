@@ -1,0 +1,32 @@
+{
+  "name": "lemonade",
+  "version": "0.0.1",
+  "description": "lemonade",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.8",
+    "gulp-sass": "~1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "browser-sync": "^1.5.2",
+    "gulp-autoprefixer": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dope/lemonade"
+  },
+  "keywords": [
+    "sass",
+    "framework"
+  ],
+  "author": "Joe Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dope/lemonade/issues"
+  },
+  "homepage": "http://lemonade.im"
+}
