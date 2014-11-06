@@ -14,14 +14,21 @@ $bit-padding: 		0.3em;
 
 // Grid widths
 // ----------------------------------------------
-// Feel free to change this to how many columns 
+// Feel free to change this to how many columns
 // you want this grid system to have.
 $start:       		1;
 $end:         		12;
 
-// Frame width (grid wrapper) 
+// Commons widths
+// ----------------------------------------------
+// A list that contains common percentage widths
+// as column classes e.g bit-60, bit-40, bit-75
+// customise this list as you require
+$common: 25, 40, 60, 75;
+
+// Frame width (grid wrapper)
 $frame-width: 		100%;
 
 // Demo Colors
 $lemonade-color:	#FCD920;
-$new-grid-color:	#87D37C; 
+$new-grid-color:	#87D37C;

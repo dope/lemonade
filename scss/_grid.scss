@@ -11,9 +11,9 @@
 // Start the grid.
 // Optional hard reset
 * {
-margin: 0;
-padding: 0;
-@include box-sizing(border-box);
+    margin: 0;
+    padding: 0;
+    @include box-sizing(border-box);
 }
 
 // clearfix
@@ -37,17 +37,18 @@ padding: 0;
 // Create grid widths (1-12)
 @for $i from $start through $end {
     .bit-#{$i} {
-        width: $full / $i;
+        width: percentage($i / $end);
     }
 }
 
 // Common widths
 // Please use the media queries below to respond these widths
 // Feel free to pull request new widths
-.bit-25 { width: $full - 75; }
-.bit-40 { width: $full - 60; }
-.bit-60 { width: $full - 40; }
-.bit-75 { width: $full - 25; }
+@each $i in $common {
+    .bit-#{$i} {
+        width: percentage($i / 100);
+    }
+}
 
 
 // Responsiveness
