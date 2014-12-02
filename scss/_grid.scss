@@ -37,7 +37,7 @@
 // Create grid widths (1-12)
 @for $i from $start through $end {
     .bit-#{$i} {
-        width: percentage($i / $end);
+        width: $full / $i;
     }
 }
 
