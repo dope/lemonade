@@ -4,15 +4,14 @@
   "description": "lemonade",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "~3.8.8",
-    "gulp-sass": "~1.0.0"
+    "gulp": "^3.9.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "browser-sync": "^1.5.2",
-    "gulp-autoprefixer": "^1.0.1",
-    "gulp-minify-css": "^0.3.11",
-    "gulp-rename": "^1.2.0"
+    "gulp-sass": "^2.0.4",
+    "browser-sync": "^2.9.3",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
