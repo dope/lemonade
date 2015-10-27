@@ -1,21 +1,3 @@
-
-// Mixins, not worth having its own file.
-// Border box
-// Should probably use auto-prefix on this.
-@mixin box-sizing($type) {
-  -webkit-box-sizing: $type;
-     -moz-box-sizing: $type;
-          box-sizing: $type;
-}
-
-// Start the grid.
-// Optional hard reset
-* {
-    margin: 0;
-    padding: 0;
-    @include box-sizing(border-box);
-}
-
 // clearfix
 .frame {
     margin: 0 auto;
