@@ -6,6 +6,7 @@ Lemonade is a a simple, flexible and easy-to-customise grid system. It was creat
 
 -   Clone `git clone https://github.com/dope/lemonade.git`
 -   [Download the latest version](https://github.com/dope/lemonade/archive/master.zip)
+-   Install with npm: `npm install lemonade-grid`
 -   Install with Bower: `bower install lemonade`
 
 
