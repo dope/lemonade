@@ -1,8 +1,8 @@
 {
   "name": "lemonade",
-  "version": "0.0.1",
+  "version": "2.1.0",
   "description": "lemonade",
-  "main": "gulpfile.js",
+  "main": "lemonade.css",
   "dependencies": {
     "gulp": "^3.9.0"
   },
@@ -24,7 +24,7 @@
     "sass",
     "framework"
   ],
-  "author": "Joe Richardson",
+  "author": "Joe Richardson <joe@lifes.gd>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dope/lemonade/issues"
