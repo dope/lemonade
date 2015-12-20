@@ -1,6 +1,6 @@
 {
     "name": "lemonade",
-    "version": "2",
+    "version": "2.0.0",
     "main": "css/lemonade.min.css",
     "author": "Joe Richardson",
     "ignore": [
