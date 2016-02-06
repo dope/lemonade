@@ -10,7 +10,9 @@ Lemonade is a a simple, flexible and easy-to-customise grid system. It was creat
 -   Install with Bower: `bower install lemonade`
 
 ## CDN Support
-```<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lemonade/2.1.0/lemonade.min.css">```
+```
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lemonade/2.1.0/lemonade.min.css">
+```
 
 ## Getting Started
 Getting started couldn't be easier
