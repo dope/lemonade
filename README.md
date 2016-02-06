@@ -45,7 +45,7 @@ Creating the css is also simple:
 ### Support
 If you have any questions or you're struggling with it, get in touch:
 
--   [hello.joer@gmail.com](mailto:hello.joer@gmail.com)
+-   [joe@lifes.gd](mailto:joe@lifes.gd)
 -   [@joericho](http://twitter.com/joericho)
 -   [@lemonadegrid](http://twitter.com/lemonadegrid)
 
@@ -63,7 +63,7 @@ Also want to thank people who are testing and contributing to the product.
 
 ### License
 ```
-Copyright (C) 2014 Joe Richardson
+Copyright (C) 2016 Joe Richardson
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
