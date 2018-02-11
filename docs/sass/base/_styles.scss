@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: $font-sans;
+    font-size: $base-font;
+    line-height: $line-height;
+}
+
+input, textarea {
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    appearance: none;
+}
+
+ul {
+    li {
+        list-style-type: none;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

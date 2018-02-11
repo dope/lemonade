@@ -1,0 +1,24 @@
+// Color
+$color-black:       #000000;
+$color-white:       #FFFFFF;
+$color-lemon:       #F7CA18;
+$color-pink:        #D2527F;
+
+$gradient-start:    $color-lemon;
+$gradient-end:      $color-pink;
+
+$color-error:       #C0392B;
+$color-success:     #4DB788;
+
+// Typography
+$font-sans:        -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+$base-font:         14px;
+$line-height:       1.4;
+
+// Media Queries
+$small:             30em;
+$medium:            43em;
+$large:             70em;
+
+// Widths
+$max-width:         1000px;

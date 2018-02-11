@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimal-ui">
+    <meta name="description" content="Lemonade is a flexible, simple and customizable grid system">
+    <title>Lemonade — Freshly squeezed.</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="prism/prism.css">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body>
+
+    <header class="site-header">
+        <span class="site-header__mobile js-mobile"></span>
+        <div class="site-header__nav frame">
+            <h1 class="site-header__logo">Lemonade</h1>
+            <nav class="site-header__list js-nav">
+                <a class="site-header__link" href="https://github.com/dope/lemonade/blob/master/README.md">Documentation</a>
+                <a class="site-header__link" href="http://github.com/dope/lemonade">Source</a>
+                <a class="site-header__link" href="http://twitter.com/lemonadegrid">@lemonadegrid</a>
+                <a class="site-header__link--download"href="https://github.com/dope/lemonade/archive/v2.1.zip">Download</a>
+            </nav>
+        </div>
+        <div class="site-header__content">
+            <h1 class="site-header__title">Lemonade</h1>
+            <p class="site-header__subtitle">A customizable grid made with Sass.</p>
+            <a class="site-header__btn" href="https://github.com/dope/lemonade/archive/v2.5.zip">Download <span>.zip</span></a>
+        </div>
+    </header>
+
+    <div class="site-content frame">
+        <div class="bit-25">
+            <div class="site-content__install">
+                <h3 class="site-content__title">Quick setup</h3>
+                <p>If you just want to get setup quickly then please see below for installation methods.</p>
+                <hr>
+                <h5>Download</h5>
+                <a href="https://github.com/dope/lemonade/archive/v2.5.zip">lemonade-2.5.zip</a>
+                <hr>
+                <h5>Install with Bower</h5>
+                <p>bower install lemonade</p>
+                <hr>
+                <h5>Install with npm</h5>
+                <p>npm i --save lemonade-grid</p>
+            </div>
+        </div>
+        <div class="bit-75">
+            <div class="site-content__copy">
+                <h2 class="site-content__copy-title">Getting Started</h2>
+                <p>Once you have Lemonade installed you will want to add the <code class="language-markup">lemonade.min.css</code> to your HTML file. To achieve this just simply do this:</p>
+                <pre><code class="language-markup">&lt;link rel="stylesheet" href="css/lemonade.min.css"&gt;</code></pre>
+                <p>Alternatively you can use the pre-made HTML file which is downloaded in the v2.5.zip folder.</p>
+
+                <h3 class="site-content__copy-title">Basic Usage</h3>
+                <p>Lemonade currently has two ways to use it. You can either use the pre-made 12 columns or create your own columns, I'll run you through how to use them both.</p></p>
+                <p>As far as grid systems go, Lemonade is pretty simple and to understand it is extremely easy. Lets create a 3 column gallery:</p>
+                <pre><code class="language-markup">&lt;div class="frame"&gt;
+    &lt;div class="bit-3"&gt;
+        &lt;img src="http://placehold.it/500x500" /&gt;
+    &lt;/div&gt;
+    &lt;div class="bit-3"&gt;
+        &lt;img src="http://placehold.it/500x500" /&gt;
+    &lt;/div&gt;
+    &lt;div class="bit-3"&gt;
+        &lt;img src="http://placehold.it/500x500" /&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                <br>
+                <h5>Premade Columns</h5>
+                <p>Let me run you through each line of this snippet. You may be aware of what a clearfix is, but for those who don't it is known as CSS hack that clears floated elements and aligns them correctly. Lemonade uses a clearfix which is a class called <code class="language-css">.frame</code>, to successfully create columns you will always need to have a .frame class wrapped around your grid columns.</p>
+                <p>Next line is <code class="language-css">.bit-3</code> which is a column with a width of <code class="language-css">33.33%</code>, which allows you to in-line three columns. Always try to avoid adding class names to grid columns.</p>
+
+                <h5>Creating Columns</h5>
+                <p>Creating columns is really simple if you have basic knowledge of Sass but if you don't, I guess you've got to learn somewhere.</p>
+<pre><code class="language-css">.bit-75 {
+    width: $full - 25%;
+}
+
+.bit-25 {
+    width: $full - 75%;
+}</code></pre>
+            <p>Let me explain this in a little more detail. $full is basically a Sass variable of 100%, so by creating these custom columns we are basically taking 100% and subtracting a number. Creating the columns are really easy as long as they equal to 100% inline.</p>
+            <hr>
+            <h5>Articles</h5>
+            <a href="http://webdesign.tutsplus.com/articles/build-a-freshly-squeezed-responsive-grid-system--webdesign-14888">Build a Freshly Squeezed Responsive Grid System</a>
+            <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="comments">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'lemonadegrid'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </div>
+
+    <footer class="site-footer frame">
+        <span class="site-footer__copyright">Lemonade created by <a href="http://jrich.cc">jrich.cc</a></span>
+        <span class="site-footer__info">
+            <a class="site-footer__link" href="http://opensource.org/licenses/MIT">License</a>
+            <a class="site-footer__link" href="http://twitter.com/lemonadegrid">@lemonadegrid</a>
+            <a class="site-footer__link" href="http://github.com/dope/lemonade-docs">Documentation Source</a>
+        </span>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="prism/prism.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+// Placeholder
+@mixin placeholder($color) {
+    &.placeholder {
+        color: $color;
+    }
+
+    &:-moz-placeholder {
+        color: $color;
+    }
+
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+}
+
+// Media Queries
+@mixin small {
+    @media (max-width: $small) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width: $small) and (max-width: $medium) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: $medium) {
+        @content;
+    }
+}

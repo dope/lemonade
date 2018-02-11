@@ -1,0 +1,20 @@
+/*
+ * Static Template by Joe Richardson
+ * 2014
+ */
+
+// Configuration
+@import 'config/config';
+
+// Mixins
+@import 'mixins/mixins';
+
+// Base
+@import 'base/styles';
+
+// Blocks
+@import 'blocks/lemonade';
+@import 'blocks/site-header';
+@import 'blocks/site-content';
+@import 'blocks/comments';
+@import 'blocks/site-footer';

@@ -1,0 +1,80 @@
+.site-content {
+    max-width: $max-width;
+    margin: 40px auto;
+
+    &__install {
+        border: 1px solid darken($color-white, 5%);
+        padding: 20px 0;
+        p {
+            margin-bottom: 0 !important;
+        }
+
+        h5, h3, p, a {
+            padding: 0 20px;
+        }
+
+    }
+
+    &__copy {
+        padding: 10px;
+        padding-left: 40px;
+
+        @include small {
+            padding-left: 0;
+        }
+
+        @include medium {
+            padding-left: 0;
+        }
+    }
+
+    &__title {
+        font-size: 1.4em;
+    }
+
+    h5 {
+        font-size: 0.7em;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: $color-black;
+
+        &:hover {
+            color: $color-pink;
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    hr {
+        height: 0px;
+        border: 0;
+        border-top: 1px solid darken($color-white, 5%);
+        margin: 20px 0;
+    }
+}
+
+@include small {
+    .bit-75,
+    .bit-25 {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@include medium {
+    .bit-75,
+    .bit-25 {
+        width: 100%;
+        padding: 20px;
+    }
+}

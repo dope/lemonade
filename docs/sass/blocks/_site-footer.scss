@@ -1,0 +1,68 @@
+.site-footer {
+    max-width: $max-width;
+    margin: 0 auto;
+    width: 90%;
+    padding: 5em 0;
+    color: $color-black;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #f2f2f2;
+
+
+    a {
+        color: $color-black;
+        border-bottom: 1px solid transparent;
+        transition: .3s;
+
+        &:hover {
+            color: $color-lemon;
+            border-color: $color-lemon;
+        }
+    }
+
+    &__copyright {
+        @include small {
+            display: block;
+        }
+
+        @include medium {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    &__info {
+        float: right;
+
+        @include small {
+            float: left;
+            margin-top: 20px;       
+        }
+
+        @include medium {
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+            display: block;
+            text-align: center;
+        }
+
+        a {
+            margin-right: 20px;
+            
+            @include small {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            @include medium {
+                margin-right: 5px;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,209 @@
+.site-header {
+    position: relative;
+    background: linear-gradient(45deg, $gradient-start 10%, $gradient-end 90%);
+    overflow: hidden;
+    background-size: 200% 100% !important;
+    animation: move 10s ease infinite;
+
+    &__mobile {
+        opacity: 0;
+        cursor: pointer;
+        z-index: 10;
+        position: absolute;
+        top: 27px;
+        right: 25px;
+        width: 25px;
+        height: 15px;
+        border-top: 1px solid $color-white;
+        border-bottom: 1px solid $color-white;
+
+        @include small {
+            opacity: 1;
+        }
+
+        &:after {
+            position: absolute;
+            content: "";
+            height: 1px;
+            width: 70%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: $color-white;
+            margin: auto;
+        }
+    }
+
+    &__nav {
+        position: relative;
+        background: rgba(0,0,0,.1);
+        padding: 25px;
+    }
+
+    &__logo {
+        width: 25%;
+        display: inline-block;
+        transition: .3s;
+
+        @include small {
+            display: block;
+        }
+        vertical-align: middle;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 11px;
+        font-weight: 600;
+        color: $color-white;
+        text-align: center;
+    }
+
+    &__list {
+        display: inline-block;
+        text-align: right;
+        width: 74%;
+        display: none;
+
+        &--show {
+          @include small {
+            display: block;
+            width: 100%;
+            line-height: 2;
+            margin-top: 30px;
+          }
+        }
+
+        @include medium {
+            display: inline-block !important;
+        }
+
+        @include large {
+            display: inline-block !important;
+        }
+    }
+
+    &__link {
+        color: $color-white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 11px;
+        margin-right: 20px;
+
+        @include small {
+            width: 100%;
+            display: block;
+        }
+
+        @include medium {
+            margin-right: 10px;
+        }
+
+        &:hover {
+            border-bottom: 2px solid $color-white;
+
+            @include small {
+                border: 0;
+            }
+        }
+
+        &--download {
+            border: 2px solid $color-white;
+            color: $color-white;
+            letter-spacing: 1px;
+            font-size: 11px;
+            text-transform: uppercase;
+            border-radius: 100px;
+            padding: 10px 20px;
+            transition: .3s ease-in;
+
+            @include small {
+                display: none;
+            }
+
+            @include medium {
+                display: none;
+            }
+
+            &:hover {
+                background: $color-white;
+                color: $color-black;
+            }
+        }
+    }
+
+    &__content {
+        padding: 130px 0 190px 0;
+        text-align: center;
+
+        @include small {
+            padding: 60px 0 60px 0;
+        }
+
+        > * {
+            position: relative;
+        }
+    }
+
+    &__title {
+        font-size: 5em;
+        color: $color-white;
+
+        @include small {
+            font-size: 3em;
+        }
+    }
+
+    &__subtitle {
+        font-size: 1.5em;
+        max-width: 400px;
+        width: 90%;
+        margin: 0 auto;
+        color: rgba(0,0,0,.4);
+        margin-top: -15px;
+
+        @include small {
+            font-size: 1.3em;
+            margin-top: 0;
+
+        }
+    }
+
+    &__btn {
+        display: block;
+        max-width: 200px;
+        margin: 0px auto;
+        background: $color-white;
+        margin-top: 40px;
+        padding: 15px 0px;
+        font-size: 1.3em;
+        color: $color-black;
+        text-decoration: none;
+        border-radius: 100px;
+        transition: .3s;
+        border: 2px solid $color-white;
+
+        &:hover {
+            color: $color-white;
+            background: transparent;
+        }
+
+        span {
+            font-size: 0.7em;
+            color: rgba(0,0,0,.4);
+        }
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
