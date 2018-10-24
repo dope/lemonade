@@ -15,7 +15,7 @@
 ```
 
 ## Getting Started
-<font size="1px">Getting started couldn't be easier</font>
+Getting started can be easier if you tries
 
 #### First you need to link the stylesheet
 ```html
