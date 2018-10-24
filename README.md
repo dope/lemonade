@@ -15,7 +15,7 @@
 ```
 
 ## Getting Started
-Getting started couldn't be easier
+<small>Getting started couldn't be easier</small>
 
 #### First you need to link the stylesheet
 ```html
